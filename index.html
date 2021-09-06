@@ -18,67 +18,22 @@
       var link = document.createElement( 'link' );
       link.rel = 'stylesheet';
       link.type = 'text/css';
-      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'revealjs/css/print/pdf.css' : 'revealjs/css/print/paper.css';
       document.getElementsByTagName( 'head' )[0].appendChild( link );
     </script>
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
-        <section data-markdown="slides/introduction.md"
-        data-separator="^\r?\n---\r?\n$"
-        data-separator-vertical="^\r?\n----\r?\n$"
-        data-separator-notes="^Note:"
-        data-charset="utf-8">
-        </section>
-        <section data-markdown="slides/cloud.md"
-        data-separator="^\r?\n---\r?\n$"
-        data-separator-vertical="^\r?\n----\r?\n$"
-        data-separator-notes="^Note:"
-        data-charset="utf-8">
-        </section>
-        <section data-markdown="slides/saas.md"
-        data-separator="^\r?\n---\r?\n$"
-        data-separator-vertical="^\r?\n----\r?\n$"
-        data-separator-notes="^Note:"
-        data-charset="utf-8">
-        </section>
-        <section data-markdown="slides/iaas.md"
-        data-separator="^\r?\n---\r?\n$"
-        data-separator-vertical="^\r?\n----\r?\n$"
-        data-separator-notes="^Note:"
-        data-charset="utf-8">
-        </section>
-        <section data-markdown="slides/architecture.md"
-        data-separator="^\r?\n---\r?\n$"
-        data-separator-vertical="^\r?\n----\r?\n$"
-        data-separator-notes="^Note:"
-        data-charset="utf-8">
-        </section>
-        <section data-markdown="slides/paas.md"
-        data-separator="^\r?\n---\r?\n$"
-        data-separator-vertical="^\r?\n----\r?\n$"
-        data-separator-notes="^Note:"
-        data-charset="utf-8">
-        </section>
-        <section data-markdown="slides/serverless.md"
-        data-separator="^\r?\n---\r?\n$"
-        data-separator-vertical="^\r?\n----\r?\n$"
-        data-separator-notes="^Note:"
-        data-charset="utf-8">
-        </section>
-        <section data-markdown="slides/conclusion.md"
-        data-separator="^\r?\n---\r?\n$"
-        data-separator-vertical="^\r?\n----\r?\n$"
-        data-separator-notes="^Note:"
-        data-charset="utf-8">
-        </section>
-        <section data-markdown="slides/links.md"
-        data-separator="^\r?\n---\r?\n$"
-        data-separator-vertical="^\r?\n----\r?\n$"
-        data-separator-notes="^Note:"
-        data-charset="utf-8">
-        </section>
+        <section data-markdown="slides/introduction.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="utf-8"></section>
+        <section data-markdown="slides/cloud.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="utf-8"></section>
+        <section data-markdown="slides/saas.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="utf-8"></section>
+        <section data-markdown="slides/iaas.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="utf-8"></section>
+        <section data-markdown="slides/architecture.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="utf-8"></section>
+        <section data-markdown="slides/paas.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="utf-8"></section>
+        <section data-markdown="slides/serverless.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="utf-8"></section>
+        <section data-markdown="slides/conclusion.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="utf-8"></section>
+        <section data-markdown="slides/links.md" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$" data-separator-notes="^Note:" data-charset="utf-8"></section>
       </div>
     </div>
 
@@ -88,7 +43,6 @@
     <script src="revealjs/plugin/notes/notes.js"></script>
 
     <script>
-
         Reveal.initialize({
             controls: true,
             progress: true,
@@ -97,7 +51,6 @@
 
             plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
         });
-
     </script>
 </body>
 </html>
