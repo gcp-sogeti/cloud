@@ -6,12 +6,12 @@
 
     <title>Cloud</title>
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/white.css">
+    <link rel="stylesheet" href="revealjs/dist/css/reset.css">
+    <link rel="stylesheet" href="revealjs/dist/css/reveal.css" id="theme">
+    <link rel="stylesheet" href="revealjs/dist/css/theme/white.css">
 
     <!-- Theme used for syntax highlighting of code -->
-    <link rel="stylesheet" href="lib/css/monokai.css">
+    <link rel="stylesheet" href="revealjs/plugin/highlight/monokai.css">
 
     <!-- Printing and PDF exports -->
     <script>
@@ -82,24 +82,22 @@
       </div>
     </div>
 
-    <script src="lib/js/head.min.js"></script>
-    <script src="js/reveal.js"></script>
+    <script src="revealjs/dist/reveal.js"></script>
+    <script src="revealjs/plugin/markdown/markdown.js"></script>
+    <script src="revealjs/plugin/highlight/highlight.js"></script>
+    <script src="revealjs/plugin/notes/notes.js"></script>
 
     <script>
-      // More info about config & dependencies:
-      // - https://github.com/hakimel/reveal.js#configuration
-      // - https://github.com/hakimel/reveal.js#dependencies
-      Reveal.initialize({
-        slideNumber: true,
-        fragmentInURL: true,
-        history: true,
-        dependencies: [
-          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: 'plugin/notes/notes.js', async: true },
-          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-        ]
-      });
+
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+        });
+
     </script>
-  </body>
+</body>
 </html>
