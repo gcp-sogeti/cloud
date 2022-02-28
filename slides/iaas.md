@@ -47,7 +47,7 @@ Créer ou détruire automatiquement des ressources (via portail web ou api) sans
 ### Availability zones
 
 <img src="https://www.agileit.com/wp-content/uploads/2017/11/az-graphic-two.png" width="35%" style="background:none; border:none; box-shadow:none;" />
-<img src="https://image.slidesharecdn.com/awsoverviewv4-120611171440-phpapp02/95/overview-of-amazon-web-services-8-728.jpg?cb=1434492790" width="54%" style="background:none; border:none; box-shadow:none;" />
+<img src="https://s7280.pcdn.co/wp-content/uploads/2020/06/google-cloud-provider-1.png" width="54%" style="background:none; border:none; box-shadow:none;" />
 
 Note: 
 C'est quoi le nombre de serveur du plus gros datacenter à dublin
@@ -55,10 +55,16 @@ C'est quoi le nombre de serveur du plus gros datacenter à dublin
 
 ----
 
+### Machines virtuelles par AZ
+<img src="img/az1.png" width="80%" style="background:none; border:none; box-shadow:none;" />
+<img src="img/az2.png" width="80%" style="background:none; border:none; box-shadow:none;" />
+
+----
+
 ### Machines virtuelles
 
 - Découplage entre cpu, ram et stockage
-- Tourne sur un hyperviseur (Xen pour AWS, HyperV pour Microsoft)
+- Tourne sur un hyperviseur (Xen pour AWS, HyperV pour Microsoft, KVM pour Google)
 
 ----
 
