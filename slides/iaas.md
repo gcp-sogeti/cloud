@@ -56,8 +56,8 @@ C'est quoi le nombre de serveur du plus gros datacenter à dublin
 ----
 
 ### Machines virtuelles par AZ
-<img src="img/az1.png" width="80%" style="background:none; border:none; box-shadow:none;" />
-<img src="img/az2.png" width="80%" style="background:none; border:none; box-shadow:none;" />
+<img src="img/az1.png" width="40%" style="background:none; border:none; box-shadow:none;" />
+<img src="img/az2.png" width="40%" style="background:none; border:none; box-shadow:none;" />
 
 ----
 
