@@ -49,7 +49,7 @@ Note:
 
 ### Les différents types de service
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*VD9n01kVn4hqOhyzY9X41w.png" style="background:none; border:none; box-shadow:none;"/>
+<img src="img/xaas-eng.png" style="background:none; border:none; box-shadow:none;"/>
 
 Note:
 * Shared Responsibility Model (SRM) - tout ce qui est en bleu c'est le CSP (Cloud service provider) - le reste le user
