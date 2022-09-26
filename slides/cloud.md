@@ -52,4 +52,8 @@ Note:
 
 Note:
 * Shared Responsibility Model (SRM) - tout ce qui est en bleu foncé c'est le CSP (Cloud service provider) - le reste est à la charge du user
-* le Paas, c'est pas des vm mais des niveaux de SLA
+    IaaS — a client gets only infrastructure,
+    PaaS — a client gets infrastructure and software for application development,
+    SaaS — a client gets a ready-to-use application in the cloud.
+Req : https://www.ispsystem.com/news/xaas
+
