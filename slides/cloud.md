@@ -47,13 +47,9 @@ Note:
 
 ----
 
-### Les différents types de service
-
+### What is XaaS?
 <img src="img/xaas-eng.png" style="background:none; border:none; box-shadow:none;"/>
 
 Note:
-* Shared Responsibility Model (SRM) - tout ce qui est en bleu c'est le CSP (Cloud service provider) - le reste le user
-* 2 flavor differentes de PaaS
-  * Heroku style - dyno
-  * le reste
-* le paas, c'est pas des vm mais des niveaux de SLA
+* Shared Responsibility Model (SRM) - tout ce qui est en bleu foncé c'est le CSP (Cloud service provider) - le reste est à la charge du user
+* le Paas, c'est pas des vm mais des niveaux de SLA
