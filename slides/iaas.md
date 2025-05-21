@@ -44,6 +44,18 @@ Créer ou détruire automatiquement des ressources (via portail web ou api) sans
 
 ----
 
+### Regions : Google Cloud
+
+<img src="https://cloud.google.com/static/images/locations/regions-maps-popup_2x.jpg" style="background:none; border:none; box-shadow:none;" />
+
+----
+
+### Réseau Google
+
+<img src="https://cloud.google.com/static/images/locations/cloud-cdn-map-popup_2x.jpg" style="background:none; border:none; box-shadow:none;" />
+
+----
+
 ### Availability zones
 
 <img src="https://www.agileit.com/wp-content/uploads/2017/11/az-graphic-two.png" width="35%" style="background:none; border:none; box-shadow:none;" />
@@ -91,7 +103,7 @@ Machine optimisée pour chaque usage
 
 ### Pet vs Cattle
 
-<img src="https://i.stack.imgur.com/Lm3Td.jpg" style="background:none; border:none; box-shadow:none;" />
+<img src="https://blog.octo.com/pet-vs-cattle-de-lartisan-du-serveur-a-lartisan-codeur/image01-e1482225268205.webp" style="background:none; border:none; box-shadow:none;" />
 
 Note:
 * tout faire pour arreter de traiter l'unitaire
