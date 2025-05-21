@@ -12,7 +12,7 @@ Donnez moi des exemples
 
 ### Les mainframes
 
-<img src="https://www.researchgate.net/publication/275405572/figure/fig2/AS:294523784712210@1447231350853/Mainframe-Architecture.png" style="background:none; border:none; box-shadow:none;"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/IBM_System360_Mainframe.jpg" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
@@ -24,7 +24,7 @@ Donnez moi des exemples
 
 ### Création des machines virtuelles
 
-<img src="https://www.veeam.com/blog/wp-content/uploads/2015/10/2015-Q4-Physical-Servers-vs-VMs.png" style="background:none; border:none; box-shadow:none;"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Hardware_Virtualization_%28copy%29.svg/250px-Hardware_Virtualization_%28copy%29.svg.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
